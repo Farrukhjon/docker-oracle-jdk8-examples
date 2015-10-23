@@ -13,7 +13,7 @@ RUN wget --quiet \
          --no-check-certificate \
          --no-cookies \
          --header "Cookie: oraclelicense=accept-securebackup-cookie" \
-         http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz && \
+         http://download.oracle.com/otn-pub/java/jdk/8u65-b17/jdk-8u65-linux-x64.tar.gz && \
     mkdir -p /usr/lib/jvm && \
     tar --gunzip --extract --verbose --file /jdk-8.tar.gz --directory /usr/lib/jvm && \
     rm -f /jdk-8.tar.gz && \
