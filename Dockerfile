@@ -24,5 +24,8 @@ ENV JDK_HOME /usr/lib/jvm/jdk1.8
 ENV JAVA_HOME /usr/lib/jvm/jdk1.8
 ENV PATH $PATH:$JAVA_HOME/bin
 
+# test java
+RUN java -version
+
 # export meta-data about this container
-ENV FARRUKH_JAVA_VENDOR Oracle 
+ENV JAVA_VENDOR Oracle 
