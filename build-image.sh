@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build --tag="farrukh/ubuntu-orcale-jdk8" .
+docker build --tag="farrukhjon/ubuntu-orcale-jdk8" .
 
